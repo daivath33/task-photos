@@ -5,7 +5,7 @@ import { data } from "./data.js";
 function App() {
   return (
     <div>
-      <Header />
+      <Header title="Title" text="Some about text in two lines" />
       <Photos data={data} />
     </div>
   );

@@ -4,10 +4,12 @@
   justify-content: center;
   align-items: center;
 }
+
 .text {
   text-align: center;
   margin-top: 130px;
 }
+
 .text p {
   margin: 20px;
   font-size: 16px;

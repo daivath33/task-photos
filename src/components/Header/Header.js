@@ -1,6 +1,7 @@
+import Button from "../Button/Button";
 import "./Header.css";
 
-const Header = () => {
+const Header = ({ title, text }) => {
   return (
     <header>
       <img
@@ -8,10 +9,9 @@ const Header = () => {
         alt=""
       />
       <div className="text-box">
-        <h1>Title</h1>
-        <p>Some about text</p>
-        <p>in two lines</p>
-        <button className="btn">Button</button>
+        <h1>{title}</h1>
+        <p>{text}</p>
+        <Button>Button</Button>
       </div>
     </header>
   );
